@@ -1,0 +1,112 @@
+html,label {
+  color: #03a9f4;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 300;
+  font-family: "Open Sans Condensed","Roboto";
+}
+#navigation {
+  min-width:150px;
+  width:50%;
+  max-width: 300px;
+}
+#navigation.dropdown-content .collapsible .active,#navigation.dropdown-content .collapsible .active a:link,#navigation.dropdown-content .collapsible .active a:visited {
+  background-color: #fff;
+  color: #03a9f4;
+}
+#navigation.dropdown-content a:link,#navigation.dropdown-content a:visited {
+  font-family: "Open Sans Condensed","Roboto";
+  color: #03a9f4;
+}
+#navigation.dropdown-content li:hover,#navigation.dropdown-content a:hover,#navigation.dropdown-content .collapsible-header:hover, #navigation.dropdown-content .collapsible .active a:hover {
+  background-color: #0277bd;
+  color:#fff;
+  -webkit-transition: all 900ms ease;
+    -moz-transition: all 900ms ease;
+    -o-transition: all 900ms ease;
+    transition: all 900ms ease;
+}
+#navigation.dropdown-content li.active,#navigation.dropdown-content .active .collapsible-header,#navigation.dropdown-content .collapsible-body .active a:link,#navigation.dropdown-content .collapsible-body .active a:visited  {
+  background-color: #0277bd;
+}
+#navigation.dropdown-content .collapsible-body .active a:link,#navigation.dropdown-content .collapsible-body .active a:visited,#navigation.dropdown-content .active a:link,#navigation.dropdown-content .active a:visited,#navigation.dropdown-content .active .collapsible-header {
+  color:#d7ccc8;
+}
+#navigation.dropdown-content .collapsible {
+  border:0;
+  color: #03a9f4;
+  box-shadow: 0 0 0 0 #fff;
+  margin:0;
+  font-family: "Open Sans Condensed","Roboto";
+  font-size: 1.2rem;
+}
+#navigation.dropdown-content .collapsible-header,#navigation.dropdown-content .collapsible-header:active {
+  border:0;
+  color: #03a9f4;
+  box-shadow: 0 0 0 0 #fff;
+  margin:0;
+  font-family: "Open Sans Condensed","Roboto";
+  font-size: 1.2rem;
+  clear: both;
+  width:100%;
+  padding:0rem 1rem;
+}
+.collapsible-header i {
+  width:auto;
+  margin-right:0;
+}
+.sample-chart-wrapper {
+  width: 100%;
+}
+blockquote {
+  border-left: 5px solid #8d6e63;
+}
+.gallery {
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.input-field label {
+     color: #03a9f4;
+}
+.input-field input[type=text]:focus + label,.input-field input[type=password]:focus + label {
+     color: #0277bd;
+}
+.input-field input[type=text]:focus,.input-field input[type=password]:focus{
+     border-bottom: 1px solid #03a9f4;
+     box-shadow: 0 1px 0 0 #03a9f4;
+}
+.input-field .prefix.active {
+     color: #0277bd;
+}
+[type="checkbox"].filled-in:checked+label:after {
+  border: 2px solid #0277bd;
+  background-color: #0277bd;
+}
+.dynamic-color .col div {
+  height: 20px;
+}
+.msg {
+  margin:9px;
+  line-height: 2;
+}
+.msg i {
+  margin-right: 9px;
+}
+.height-5 {
+  height: 3px;
+}
+.height-2 {
+  height: 2px;
+}
+.height-10 {
+  height: 10px;
+}
+.size-0 { font-size:0.5rem;}
+.size-1 { font-size:1rem; }
+.size-2 { font-size:1.5rem; }
+
+input:not([type]).validate+label, input[type=text].validate+label, input[type=password].validate+label, input[type=email].validate+label, input[type=url].validate+label, input[type=time].validate+label, input[type=date].validate+label, input[type=datetime].validate+label, input[type=datetime-local].validate+label, input[type=tel].validate+label, input[type=number].validate+label, input[type=search].validate+label, textarea.materialize-textarea.validate+label{
+  width: 100%;
+  pointer-events: none;
+}
